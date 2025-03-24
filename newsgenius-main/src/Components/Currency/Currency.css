@@ -1,0 +1,13 @@
+.currency-conversion {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(249, 249, 249, 0.8); /* Slightly transparent background */
+    background-image: url('https://i.makeagif.com/media/9-14-2016/23aflF.gif'); /* Placeholder for background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    color: orangered;
+}

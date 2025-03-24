@@ -1,0 +1,108 @@
+/* Entertainment page styles */
+
+/* Ticker styles */
+.ticker-wrap {
+  width: 100%;
+  overflow: hidden;
+  height: 2.5rem;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.ticker {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%; /* Ensure the content loops */
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 60s;
+}
+
+.ticker-item {
+  display: inline-block;
+  padding: 0 2rem;
+  color: #1976d2;
+  font-weight: 600;
+  position: relative;
+}
+
+.ticker-item:after {
+  content: "•";
+  position: absolute;
+  right: 0.75rem;
+}
+
+.ticker-item:last-child:after {
+  display: none;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Make sure animation works on different browsers */
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+/* Fix for mobile devices */
+@media (max-width: 768px) {
+  .ticker {
+    animation-duration: 30s; /* Faster on mobile */
+  }
+  
+  .ticker-item {
+    padding: 0 1.5rem;
+  }
+}
+
+/* Hover effects for cards */
+.movie-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Movie type badges */
+.movie-badge {
+  background-color: #1976d2;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.series-badge {
+  background-color: #9c27b0;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Section dividers */
+.section-divider {
+  margin: 2rem 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(25, 118, 210, 0.3), transparent);
+} 

@@ -1,0 +1,101 @@
+.article-creation-container {
+  transition: box-shadow 0.3s ease;
+}
+
+.article-creation-container:focus-within {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.media-library {
+  max-height: 250px;
+  overflow-y: auto;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  padding: 8px;
+}
+
+.media-library img:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+/* Media options styles */
+.media-options {
+  width: 230px;
+}
+
+.media-options div:hover {
+  transition: background-color 0.2s ease;
+}
+
+.media-options div:active {
+  background-color: rgba(29, 155, 240, 0.2);
+}
+
+/* Custom emoji picker styles */
+.custom-emoji-picker {
+  max-width: 300px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.emoji-item {
+  transition: transform 0.1s ease;
+}
+
+.emoji-item:hover {
+  transform: scale(1.2);
+}
+
+.location-picker {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* Button hover effect */
+button.text-blue-500:hover {
+  background-color: rgba(29, 155, 240, 0.1);
+}
+
+/* Image preview animation */
+.relative.mt-3 {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom scrollbar */
+.media-library::-webkit-scrollbar,
+.location-picker::-webkit-scrollbar,
+.custom-emoji-picker::-webkit-scrollbar {
+  width: 6px;
+}
+
+.media-library::-webkit-scrollbar-track,
+.location-picker::-webkit-scrollbar-track,
+.custom-emoji-picker::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.media-library::-webkit-scrollbar-thumb,
+.location-picker::-webkit-scrollbar-thumb,
+.custom-emoji-picker::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+
+.media-library::-webkit-scrollbar-thumb:hover,
+.location-picker::-webkit-scrollbar-thumb:hover,
+.custom-emoji-picker::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+} 

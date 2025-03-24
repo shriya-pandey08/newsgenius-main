@@ -1,0 +1,74 @@
+{
+  "articles": [
+    {
+      "title": "Global Leaders Meet to Address Climate Crisis",
+      "description": "World leaders gather in Paris for urgent climate talks as global temperatures continue to rise.",
+      "url": "https://example.com/climate-summit",
+      "urlToImage": "/logo.jpg",
+      "section": "World News"
+    },
+    {
+      "title": "Tech Giants Announce Breakthrough in AI Research",
+      "description": "Major tech companies unveil new AI models that could revolutionize various industries.",
+      "url": "https://example.com/ai-breakthrough",
+      "urlToImage": "/logo.jpg",
+      "section": "Technology"
+    },
+    {
+      "title": "Stock Markets Rally After Positive Economic Indicators",
+      "description": "Global markets show strong gains following encouraging economic reports from major economies.",
+      "url": "https://example.com/market-rally",
+      "urlToImage": "/logo.jpg",
+      "section": "Business"
+    },
+    {
+      "title": "New Vaccine Shows Promise in Clinical Trials",
+      "description": "Pharmaceutical company reports successful phase 3 trials for a new vaccine targeting multiple diseases.",
+      "url": "https://example.com/vaccine-trials",
+      "urlToImage": "/logo.jpg",
+      "section": "Health"
+    },
+    {
+      "title": "SpaceX Launches New Satellite Constellation",
+      "description": "Elon Musk's company successfully deploys the latest batch of Starlink satellites.",
+      "url": "https://example.com/spacex-launch",
+      "urlToImage": "/logo.jpg",
+      "section": "Science"
+    },
+    {
+      "title": "Major Film Festival Announces 2025 Lineup",
+      "description": "The prestigious Cannes Film Festival reveals its official selection for the upcoming edition.",
+      "url": "https://example.com/film-festival",
+      "urlToImage": "/logo.jpg",
+      "section": "Entertainment"
+    },
+    {
+      "title": "Historic Peace Agreement Signed in Conflict Zone",
+      "description": "After years of negotiations, warring factions agree to a comprehensive peace deal.",
+      "url": "https://example.com/peace-agreement",
+      "urlToImage": "/logo.jpg",
+      "section": "Politics"
+    },
+    {
+      "title": "Breakthrough in Renewable Energy Storage",
+      "description": "Scientists develop a new battery technology that could revolutionize energy storage.",
+      "url": "https://example.com/energy-storage",
+      "urlToImage": "/logo.jpg",
+      "section": "Science"
+    },
+    {
+      "title": "Global Art Exhibition Opens in New York",
+      "description": "The world's largest contemporary art exhibition showcases works from over 100 countries.",
+      "url": "https://example.com/art-exhibition",
+      "urlToImage": "/logo.jpg",
+      "section": "Arts"
+    },
+    {
+      "title": "New Study Reveals Benefits of Plant-Based Diets",
+      "description": "Comprehensive research shows significant health benefits from plant-based nutrition.",
+      "url": "https://example.com/plant-based-study",
+      "urlToImage": "/logo.jpg",
+      "section": "Health"
+    }
+  ]
+}

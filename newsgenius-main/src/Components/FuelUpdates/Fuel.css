@@ -1,0 +1,10 @@
+.fuel-updates {
+    width: 100%; /* Ensures it takes the full width of the parent */
+    max-width: 400px; /* Set a maximum width to match the weather section */
+    margin: 0 auto; /* Centers the section */
+    padding: 20px; /* Adds padding for better spacing */
+    border: 1px solid #ccc; /* Optional: adds a border */
+    border-radius: 8px; /* Optional: rounds the corners */
+    background-color: #f9f9f9; /* Optional: background color */
+    background-image: url('https://www.hindustantimes.com/ht-img/img/2023/04/06/550x309/The-petrol-pump-attendant-said-the-car-driver-firs_1675546046654_1680777923650_1680777923650.jpg');
+  }

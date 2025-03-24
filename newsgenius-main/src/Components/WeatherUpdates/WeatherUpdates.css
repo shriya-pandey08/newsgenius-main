@@ -1,0 +1,20 @@
+/*.weather-updates {
+    position: relative;
+    background: url('https://img.freepik.com/premium-photo/natural-sun-rays-sun-light-moving-grass_118124-147067.jpg') no-repeat
+}*/
+
+.weather-updates {
+    position: relative;
+    background: url('https://i.pinimg.com/originals/ee/3c/15/ee3c156ec4646201c7314fad4f47ce7a.gif') no-repeat center center; /* Replace with your GIF URL */
+    background-size: cover; /* Ensures the image covers the entire component */
+    color: yellow; /* Change text color for better visibility */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for depth */
+  }
+  
+  .weather-info, .air-quality-info {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 10px;
+    border-radius: 5px; /* Optional: rounded corners for inner sections */
+  }

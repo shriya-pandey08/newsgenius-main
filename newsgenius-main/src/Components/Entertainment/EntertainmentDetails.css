@@ -1,0 +1,87 @@
+/* Entertainment Section Styles */
+
+/* Ticker Animation */
+.ticker-wrap {
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 0;
+  position: relative;
+}
+
+.ticker {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 60s;
+}
+
+.ticker-item {
+  display: inline-block;
+  padding: 0 2rem;
+  color: white;
+  font-weight: 500;
+}
+
+/* Keyframes for ticker animation */
+@keyframes ticker {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ticker {
+    animation-duration: 30s;
+  }
+  
+  .ticker-item {
+    padding: 0 1rem;
+  }
+}
+
+/* Movie Card Hover Effects */
+.movie-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Movie and Series Badges */
+.movie-badge {
+  background-color: #e53935;
+  color: white;
+}
+
+.series-badge {
+  background-color: #3949ab;
+  color: white;
+}
+
+/* Section Divider */
+.section-divider {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.12);
+  margin: 2rem 0;
+} 

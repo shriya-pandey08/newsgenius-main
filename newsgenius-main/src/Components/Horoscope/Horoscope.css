@@ -1,0 +1,37 @@
+.horoscope-section {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(249, 249, 249, 0.8);
+    background-image: url('https://images.dailyom.com/images/HERO-Website-All%20Horoscope-12x5-aspect-ratio-2.jpg?w=1920&q=100');
+    background-repeat:no-repeat;
+}
+
+.zodiac-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.zodiac-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.zodiac-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.horoscope-text {
+    margin-top: 15px;
+    font-size: 16px;
+    color: black; /* Ensure text is visible */
+}

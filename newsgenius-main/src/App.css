@@ -1,0 +1,83 @@
+.top-left-container {
+  position: fixed; /* Fixed position to stay in place */
+  top: 20px; /* Adjust distance from the top */
+  left: 20px; /* Adjust distance from the left */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+
+.post-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ensures even spacing */
+  margin: 0 auto; /* Centers the container */
+}
+
+.post-card {
+  flex: 1 1 calc(33.333% - 20px); /* Adjusts width and spacing */
+  margin: 10px; /* Adds margin around each card */
+}
+
+/* Light Theme (Default) */
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Theme */
+.app.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.app.dark .right-part {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.app.dark input {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.app.d
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
